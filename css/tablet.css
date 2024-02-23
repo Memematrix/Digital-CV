@@ -1,0 +1,43 @@
+@media(max-width: 992px) {
+    .nav-info {
+        display: none;
+    }
+    /* Thông tin cá nhân */
+    section > .container-info {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .container-project {
+        grid-template-columns: 320px 320px;
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 30px;
+    }
+    .container-job {
+        grid-template-columns: repeat(2, 300px);
+    }
+    .float{
+        left:200px;
+        top:550px;
+    }
+    /* Certificate */
+    .cert1, .cert2, .cert3 {
+        padding-left: 0;
+        padding-top: 40px;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 1rem;
+    }
+    .container-cert img {
+        margin: 0 0 10px 0;
+    }
+    /* Project charter */
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .scope-detail{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+    }
+}
